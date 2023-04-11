@@ -1,9 +1,12 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "Interpretable Machine Learning with Visualization"
+author: "Joyce Robbins"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+# Introduction
 
+This book contains code examples and notes for using R packages to model, explain and visualize. For now there's not much commentary but that may change in the future.
+
+Contributions welcome!
