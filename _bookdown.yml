@@ -1,5 +1,5 @@
 book_filename: "bookdownproj"
-output_dir: docs
+output_dir: _book
 delete_merged_file: true
 edit: https://github.com/jtr13/IMVL/edit/main/%s
 view: https://github.com/jtr13/IMVL/blob/main/%s
