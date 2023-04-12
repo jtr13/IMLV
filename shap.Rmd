@@ -2,7 +2,28 @@
 
 ## `fastshap`
 
-### Notes
+### General Notes
+
+Package author: Brandon Greenwell, author of **pdp** package, some machine learning books in R
+
+Package web site: https://bgreenwell.github.io/fastshap/
+
+Model types: can compute *exact* values for `lm`, `xgboost` and `lightgbm` objects, need to set `exact = TRUE`
+
+for approximate values, can handle any model, but you must provide a prediction function through the `pred_wrapper` parameter
+
+ex.
+
+`randomForest`
+
+`pred
+
+
+### Coding Notes
+
+* include `adjust = TRUE` in `explain()` so the prediction for a single instance is indeed equal to the average prediction plus the sum of the Shapley values.
+
+* set `nsim` to as large a value as "feasibly possible" to improve accuracy
 
 ### Examples
 
