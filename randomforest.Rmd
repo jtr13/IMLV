@@ -1,2 +1,8 @@
 # Random forest models
 
+
+If you are interested in random forest modelling, you should look at the documentation thoroughly! 
+Here are a few things that might cause you issues: 
+- double check if you want a classification or regression output, make sure the 'type' is correct for your purposes
+- certain metrics only work for each type, use err.rate, confusion, and vote for classification, while you should use mse or rsq for regression. 
+- set a seed if you want to guarantee the same results every time
