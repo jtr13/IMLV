@@ -1,2 +1,2 @@
 # Random forest models
-
+If your response variable is categorical data, convert to factors when fitting a random forest model.
