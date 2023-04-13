@@ -1,2 +1,2 @@
 # Random forest models
-
+Make sure to convert categorical data to factors when fitting a random forest model.
