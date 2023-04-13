@@ -27,3 +27,6 @@ ex.
 
 ### Examples
 
+
+**NOTE: DO NOT USE THE `SHAPPER` PACKAGE. IT IS AWFUL**
+More specifically, unless you are only used to Python development and are new to R, I wouldn't use this package. One of the packages that `shapper` depends on is no longer available on CRAN, and the example code provided [here](https://github.com/ModelOriented/shapper) does not work. There are many other packages that are excellent for SHAP values, so I would recommend looking into those.
