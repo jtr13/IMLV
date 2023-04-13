@@ -1,0 +1,39 @@
+---
+title: "SHAP package"
+output: html_document
+date: "2023-04-11"
+---
+
+we are studying shapviz:
+```{r}
+library(shapviz)
+library(ggplot2)
+library(xgboost)
+
+set.seed(3653)
+
+x <- c("carat", "cut", "color", "clarity")
+dtrain <- xgb.DMatrix(data.matrix(diamonds[x]), label = diamonds$price)
+fit <- xgb.train(params = list(learning_rate = 0.1), data = dtrain, nrounds = 65L)
+```
+
+
+```{r}
+# Explanation data
+dia_small <- diamonds[sample(nrow(diamonds), 2000L), ]
+
+shp <- shapviz(fit, X_pred = data.matrix(dia_small[x]), X = dia_small)
+shp
+```
+
+```{r}
+sv_waterfall(shp, row_id = 1)
+```
+```{r}
+sv_force(shp, row_id = 1)
+```
+```{r}
+sv_waterfall(shp, shp$X$color == "D")
+```
+
+
