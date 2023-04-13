@@ -27,3 +27,5 @@ ex.
 
 ### Examples
 
+
+**NOTE: DO NOT USE THE `SHAPPER` PACKAGE. IT IS AWFUL**
