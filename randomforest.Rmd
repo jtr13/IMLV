@@ -1,2 +1,4 @@
 # Random forest models
 
+Be aware to check if the dependent variable is a factor. Even "0-1" variables can be in the integer format!
+
