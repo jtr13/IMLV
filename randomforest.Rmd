@@ -1,2 +1,3 @@
 # Random forest models
 
+## How does the number of features selected in each split when building a tree affect the bias and variance of final model?
