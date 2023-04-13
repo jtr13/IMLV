@@ -1,4 +1,5 @@
 introduction
+random-forest-models
 shap
 fastshap
 general-notes
