@@ -1,2 +1,3 @@
 # Random forest models
 
+categorical variable can be converted by dummy() function for one-hot encoding
