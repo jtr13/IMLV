@@ -4,3 +4,4 @@
 *.Rproj
 _book/
 docs/
+.Rbuildignore

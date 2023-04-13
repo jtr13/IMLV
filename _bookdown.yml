@@ -6,3 +6,9 @@ view: https://github.com/jtr13/IMVL/blob/main/%s
 language:
   ui:
     chapter_name: "Chapter "
+    
+rmd_files: [
+  "index.Rmd",
+  "randomforest.Rmd",
+  "shap.Rmd",
+]
